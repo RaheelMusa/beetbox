@@ -28,7 +28,7 @@ const Home = () => {
                   <figure className="flex flex-col  p-8  bg-white  rounded-t-lg md:rounded-t-none md:rounded-tl-lg dark:bg-gray-800">
                      <blockquote className="max-w-2xl mx-auto mb-4 text-black font-medium   md:text-lg lg:mb-8">
 
-                        <p className="my-4">"As a music enthusiast and record label owner, I've tried numerous music streaming apps. Beatbox is the game-changer I've been waiting for. It offers the perfect blend of discoverability and personalization "</p>
+                        <p className="my-4">As a music enthusiast and record label owner, I&quotve tried numerous music streaming apps. Beatbox is the game-changer I&quotve been waiting for. It offers the perfect blend of discoverability and personalization</p>
                      </blockquote>
                      <figcaption className="flex md:text-start  space-x-3">
                         <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
@@ -41,7 +41,7 @@ const Home = () => {
                   <figure className="flex flex-col  p-8 bg-white   rounded-tr-lg ">
                      <blockquote className="max-w-2xl mx-auto mb-4 text-black font-medium  md:text-lg lg:mb-8">
 
-                        <p className="my-4">"I've been a music blogger for years, and Beatbox has simplified my music discovery process. It's intuitive, and the personalized playlists keep my readers engaged"</p>
+                        <p className="my-4">I&quotve been a music blogger for years, and Beatbox has simplified my music discovery process. It&quots intuitive, and the personalized playlists keep my readers engaged</p>
                      </blockquote>
                      <figcaption className="flex  space-x-3">
                         <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile picture" />
@@ -54,7 +54,7 @@ const Home = () => {
                   <figure className="flex flex-col  p-8 bg-white  rounded-bl-lg   dark:bg-gray-800">
                      <blockquote className="max-w-2xl mx-auto mb-4 text-black font-medium  md:text-lg lg:mb-8">
 
-                        <p className="my-4">"Being an independent artist, Beatbox has given me the platform ot reach a broader audience. The seamless sharing features and analytics have been a game-changer for my music career."</p>
+                        <p className="my-4">Being an independent artist, Beatbox has given me the platform ot reach a broader audience. The seamless sharing features and analytics have been a game-changer for my music career.</p>
                      </blockquote>
                      <figcaption className="flex  space-x-3">
                         <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture" />
@@ -141,7 +141,7 @@ const Home = () => {
                            <h2 className="text-gray-950 md:text-2xl text-base  font-bold">Customize your profile</h2>
                         </div>
                         <div className="flex-grow">
-                           <p className="text-black md:text-xl text-base">Tell us your music preferences, and we'll do the rest</p>
+                           <p className="text-black md:text-xl text-base">Tell us your music preferences, and we&quotll do the rest</p>
 
                         </div>
                      </div>
