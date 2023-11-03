@@ -8,7 +8,7 @@ const Header = () => {
       <header className=" body-font text-white bg-gray-900 max-h-screen">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
   <Link href="/" className="flex items-center">
-                  <Image src="/logo.png" width={100} height={100} className="h-20" alt=" Logo" />
+                  <Image src="/logo.png" width={100} height={100} className="h-20" alt=" Logo"></Image>
                   <span className="self-center text-2xl font-bold whitespace-nowrap ">BEETABOX</span>
               </Link>
     <nav className="md:ml-auto md:mr-auto font-bold flex flex-wrap items-center text-base justify-center">
