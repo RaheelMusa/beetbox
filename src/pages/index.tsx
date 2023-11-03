@@ -4,6 +4,7 @@ import React from 'react'
 import { FiCheckCircle } from 'react-icons/fi'
 import { BsXCircle } from 'react-icons/bs'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 const Home = () => {
    return (
@@ -290,7 +291,7 @@ const Home = () => {
                         </ul>
                         <a
                            className="mt-4 block w-fit rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-lg mx-auto font-bold text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                           href="#"
+                           href="/"
                         >
                            START TRIAL
                         </a>
@@ -398,7 +399,7 @@ const Home = () => {
                         </ul>
                         <a
                            className="mt-4 block w-fit rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-lg mx-auto font-bold text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                           href="#"
+                           href="/"
                         >
                            START TRIAL
                         </a>
@@ -506,7 +507,7 @@ const Home = () => {
                         </ul>
                         <a
                            className="mt-4 block w-fit rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-lg mx-auto font-bold text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                           href="#"
+                           href="/"
                         >
                            START TRIAL
                         </a>
@@ -588,14 +589,14 @@ const Home = () => {
                <hr className='border-2 border-solid border-white w-[10%] mx-auto mt-5' />
 
                <div className='mt-16 flex flex-wrap mx-auto items-center justify-center gap-10'>
-               <a href="#" className="inline-flex justify-center items-center py-4 px-24  text-base font-bold text-center  md:text-2xl uppercase text-white rounded-lg 
+               <Link href="/" className="inline-flex justify-center items-center py-4 px-24  text-base font-bold text-center  md:text-2xl uppercase text-white rounded-lg 
             bg-blue-500 hover:bg-indigo-800 focus:ring-4  ">
                 sign up
-            </a>  
-               <a href="#" className="inline-flex justify-center items-center py-4 px-24 text-base font-bold text-center bg-opacity-30 md:text-2xl uppercase text-white rounded-lg 
+            </Link>  
+               <Link href="/" className="inline-flex justify-center items-center py-4 px-24 text-base font-bold text-center bg-opacity-30 md:text-2xl uppercase text-white rounded-lg 
             bg-transparent border-2 border-white  focus:ring-4  ">
                 sign up
-            </a>  
+            </Link>  
             
                </div>
             </div>
